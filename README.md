@@ -81,18 +81,10 @@ Claude checks today's date against embedded holiday list
 
 ```
 claude-warm-up/
-├── docs/
-│   └── superpowers/
-│       ├── specs/
-│       │   └── 2026-04-14-claude-warm-up-design.md   # Design specification
-│       └── plans/
-│           └── 2026-04-14-claude-warm-up-plan.md      # Implementation plan
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
-The repository itself is minimal — the Cloud Scheduled Task configuration (prompt, schedule, environment) lives on Anthropic's platform, not in the repo. The repo exists because Cloud Scheduled Tasks require a linked GitHub repository.
+The repository is intentionally minimal — the Cloud Scheduled Task configuration (prompt, schedule, environment) lives on Anthropic's platform, not in the repo. The repo exists because Cloud Scheduled Tasks require a linked GitHub repository.
 
 ---
 
